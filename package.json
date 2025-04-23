@@ -1,0 +1,29 @@
+{
+  "name": "xonline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "clsx": "^2.1.1",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "postcss": "8.4.31",
+    "tailwindcss": "^3.3.2",
+    "typescript-eslint": "^8.31.0"
+  }
+}
