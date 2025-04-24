@@ -1,8 +1,7 @@
-import { GameCell } from './game-cell'
-import { GameInfo } from './game-info'
-import { useGameState } from './use-game-state';
+import {GameCell} from "./game-cell";
+import {GameInfo} from "./game-info";
+import {useGameState} from "./use-game-state";
 import {ResetButton} from "./reset-button";
-
 
 export function Game() {
     const {
@@ -12,7 +11,7 @@ export function Game() {
         isDraw,
         resetGame,
         toggleCell,
-        getWinnerCell
+        getWinnerCell,
     } = useGameState();
 
     return (
@@ -37,5 +36,5 @@ export function Game() {
             </div>
             <ResetButton onClick={resetGame}/>
         </div>
-    )
+    );
 }
