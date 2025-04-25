@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     // tailwind очень оптимизированный так как генерируется только то что используется
-    "./app/**/*.{js,ts,jsx,tsx,mdx}", // Дирректрии где могут находиться tailwind классы
+    "./app/**/*.{js,ts,jsx,tsx,mdx}", // Директрии где могут находиться tailwind классы
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
 
@@ -17,6 +17,10 @@ module.exports = {
       },
       gridTemplateRows: {
         "game-field": "repeat(3, 30px)",
+      },
+      // Переопределение значений в стилях которые существуют
+      lineHeight: {
+        tight: "1.2",
       },
     },
   },
