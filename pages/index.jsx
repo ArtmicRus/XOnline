@@ -1,6 +1,6 @@
 // Чтобы выполнять реимпорт надо не забывать фигурные скобки
 import { Header } from "../components/header";
-import {GameField, GameInfo, GameTitle} from "../components/game";
+import { GameField, GameInfo, GameTitle } from "../components/game";
 
 export default function HomePage() {
   return (

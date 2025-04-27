@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { ArrowLeftIcon } from "./icons/arrow-left-icon";
-import {StarIcon} from "./icons/star-icon";
-import {UserIcon} from "./icons/user-icon";
-import {HistoryIcon} from "./icons/history-icon";
+import { StarIcon } from "./icons/star-icon";
+import { UserIcon } from "./icons/user-icon";
+import { HistoryIcon } from "./icons/history-icon";
 
 export function GameTitle() {
   return (
@@ -16,16 +16,16 @@ export function GameTitle() {
         На главную
       </Link>
       <h1 className="text-4xl leading-tight">Крестики нолики</h1>
-        {/* Чтобы не раздавать текст каждому элементу достаточно для общего для всех текстов div указать цвет и все его унаследуют */}
-        <div className="flex items-center gap-3 text-xs text-slate-400">
-            <StarIcon/>
-            <div className="flex items-center gap-1">
-                <UserIcon/> 2
-            </div>
-            <div className="flex items-center gap-1">
-                <HistoryIcon/> 1 мин на ход
-            </div>
+      {/* Чтобы не раздавать текст каждому элементу достаточно для общего для всех текстов div указать цвет и все его унаследуют */}
+      <div className="flex items-center gap-3 text-xs text-slate-400">
+        <StarIcon />
+        <div className="flex items-center gap-1">
+          <UserIcon /> 2
         </div>
+        <div className="flex items-center gap-1">
+          <HistoryIcon /> 1 мин на ход
+        </div>
+      </div>
     </div>
   );
 }
