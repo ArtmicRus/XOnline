@@ -4,7 +4,7 @@ import { StarIcon } from "./icons/star-icon";
 import { UserIcon } from "./icons/user-icon";
 import { HistoryIcon } from "./icons/history-icon";
 
-export function GameTitle({playersCount}) {
+export function GameTitle({ playersCount }) {
   return (
     <div className="pl-2">
       {/* Вместо обычной ссылки которая <a/> в Next.js нужно использовать Link так как это оптимальнее намного */}

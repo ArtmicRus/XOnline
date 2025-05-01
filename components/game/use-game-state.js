@@ -2,7 +2,6 @@ import { useState } from "react";
 import { GAME_SYMBOLS, MOVE_ORDER } from "./constants";
 
 function getNextMove(currentMove, playersCount) {
-
   const slicedMoveOrder = MOVE_ORDER.slice(0, playersCount);
 
   const nextMoveIndex = slicedMoveOrder.indexOf(currentMove) + 1;
