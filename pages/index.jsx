@@ -9,8 +9,8 @@ import {
 import { useState } from "react";
 
 export default function HomePage() {
-  const [playersCount, setPlayersCount] = useState(4);
-  const { cells, currentMove, nextMove, handleCellClick } =
+  const [playersCount, setPlayersCount] = useState(2);
+  const { cells, currentMove, nextMove, handleCellClick, winnerSequence } =
     useGameState(playersCount);
 
   return (
@@ -31,6 +31,7 @@ export default function HomePage() {
           currentMove={currentMove}
           nextMove={nextMove}
           handleCellClick={handleCellClick}
+          winnerSequence={winnerSequence}
         />
       </main>
     </div>
